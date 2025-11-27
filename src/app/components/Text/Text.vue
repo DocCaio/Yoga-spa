@@ -1,31 +1,25 @@
-
 <script setup lang="ts">
-
 import "./Text.css";
-
 </script>
 
-
 <template>
+  <div class="container">
     <h1>The dawn of a new era in health is here</h1>
     <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-         Quo ducimus alias, rerum soluta laborum natus dolore voluptates, nemo explicabo illo reiciendis ad 
-        libero maxime ipsam vel magnam ullam quia doloremque.
+      Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus
+      platea orci vel elit blandit facilisis 
     </p>
 
-    <RouterLink to="/"
-    class="
-    btn
-    rounded-sm
-    text-white 
-    py-2 
-    px-4 
-    font-semibold   
-    transition 
-    duration-150
-  "
->Join now</RouterLink>
-    
+    <RouterLink 
+      to="/"
+      class="btn rounded-sm text-white py-2 px-4 font-semibold transition duration-150"
+    >
+      Join now
+    </RouterLink>
 
+    <div class="images">
+      <img src="/images/Text/yoga.png" alt="Yoga">
+      <img src="/images/Text/food.png" alt="Food">
+    </div>
+  </div>
 </template>
