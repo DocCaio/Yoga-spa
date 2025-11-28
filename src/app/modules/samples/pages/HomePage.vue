@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import Text from '@/app/components/Text/Text.vue';
+import MainTitle from '@/app/components/MainTitle/MainTitle.vue';
+import Wellbeing from '@/app/components/Wellbeing/Wellbeing.vue';
 
 </script>
 
 <template>
     <div>
         Home
-        <Text/>
+        <MainTitle/>
+        <Wellbeing/>
     </div>
     
 </template>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import "./Text.css";
+import "./MainTitle.css";
 </script>
 
 <template>
@@ -18,8 +18,8 @@ import "./Text.css";
     </RouterLink>
 
     <div class="images">
-      <img src="/images/Text/yoga.png" alt="Yoga">
-      <img src="/images/Text/food.png" alt="Food">
+      <img src="/images/MainTitle/yoga.png" alt="Yoga">
+      <img src="/images/MainTitle/food.png" alt="Food">
     </div>
   </div>
 </template>
