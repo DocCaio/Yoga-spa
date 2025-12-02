@@ -9,8 +9,10 @@ const tips = [
 </script>
 
 <template>
-  <div class="container-tips">
+  
+  <div >
     
+    <div class="container-tips">
 
     <div>
         <img class="flor rounded-[10px]"  src="/images/OrganicProduce/organic.png" alt="organic produce">
@@ -37,7 +39,7 @@ const tips = [
 
     </div>
      
-    
+    </div>
 
   
   </div>

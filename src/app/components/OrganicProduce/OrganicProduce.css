@@ -61,7 +61,7 @@
     }
 
      .container-tips h2 {
-     font-size: 50px;
+      font-size: 33px;
      }
       
     
@@ -77,14 +77,21 @@
 @media (min-width: 1280px) { 
 
     .container-tips {
-        max-width: 1270px;
+        max-width: 1500px;
         margin: 0 auto;
-        align-items: center; 
-        gap: 6rem; 
+        align-items: center;       
+        justify-content: space-around;
     }
 
     .flor {
-        width: 420px;
-        height: 378px;
+        width: 523px;
+        height: 478px;
     }
+
+     .tip-item {
+        max-width: 520px;
+        justify-content: flex-start;
+        margin-top: 2rem;        
+    }
+
 }
