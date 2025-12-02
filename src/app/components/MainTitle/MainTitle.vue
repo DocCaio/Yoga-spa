@@ -3,7 +3,7 @@ import "./MainTitle.css";
 </script>
 
 <template>
-  <div class="container">
+  <section class="container">
     <h1>The dawn of a new era in health is here</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur. Quam ut consequat at a. Diam lacus
@@ -21,5 +21,5 @@ import "./MainTitle.css";
       <img src="/images/MainTitle/yoga.png" alt="Yoga">
       <img src="/images/MainTitle/food.png" alt="Food">
     </div>
-  </div>
+  </section>
 </template>

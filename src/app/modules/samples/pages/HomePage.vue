@@ -2,17 +2,19 @@
 import Eat from '@/app/components/Eat/Eat.vue';
 import MainTitle from '@/app/components/MainTitle/MainTitle.vue';
 import OrganicProduce from '@/app/components/OrganicProduce/OrganicProduce.vue';
+import PlantProtective from '@/app/components/PlantProtective/PlantProtective.vue';
 import Wellbeing from '@/app/components/Wellbeing/Wellbeing.vue';
 
 </script>
 
 <template>
-    <div>
-        Home
+    <div>        
         <MainTitle/>
         <Wellbeing/>
         <OrganicProduce/>
         <Eat/>
+        <PlantProtective/>
+
     </div>
     
 </template>

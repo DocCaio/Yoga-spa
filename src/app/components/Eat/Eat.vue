@@ -14,11 +14,11 @@ const eat = [
 </script>
 
 <template>
-  <div>
+  <section>
     <div class="container-eat">
 
         <div>
-            <img class="drink" src="/images/Eat/drinks.png" alt="icon" />
+            <img class="drink" src="/images/Eat/drinks.png" alt="drink" />
         </div>
 
 
@@ -36,5 +36,5 @@ const eat = [
 
       </div>
     </div>
-  </div>
+  </section>
 </template>

@@ -1,0 +1,188 @@
+.bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url("/images/PlantProtective/BgFlorest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+}
+
+.border {
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 40px;
+    margin: 0 auto;
+}
+
+.bg h2 {
+    font-size: 20px;
+    max-width: 200px;
+}
+
+.bg p {
+    display: none;
+}
+
+.plant-btn {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 8px 70px;
+    margin-top: 1rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+
+.bg-plant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    background-color: #fce2d7;
+    max-width: 260px;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: -1rem auto 0 auto;
+    gap: 1rem;
+}
+
+.bg-plant img {
+    margin-left: 2rem;
+    width: 50px;
+}
+
+@media (min-width: 768px) {
+
+    .bg {
+        max-width: 700px;
+        height: 400px;
+
+    }
+
+    .bg-plant {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        max-width: 500px;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .border {
+        border: 1px solid white;
+        padding: 0.5rem;
+        border-radius: 10px;
+        width: 60px;
+        margin: 0 auto;
+
+    }
+
+    .bg h2 {
+        font-size: 25px;
+        max-width: 400px;
+        margin-top: 1rem;
+    }
+
+    .bg p {
+        display: block;
+        max-width: 600px;
+        text-align: start;
+        margin-top: 1rem;
+    }
+
+
+    .plant-btn {
+        padding: 12px 100px;
+        margin-top: 1rem;
+
+    }
+
+
+    .bg-plant {
+        text-align: center;
+        padding: 2rem;
+        margin-top: -4rem;
+    }
+
+    .bg-plant img {
+        margin: 1rem 0 1rem 5rem;
+
+        width: 50px;
+    }
+
+
+}
+
+@media (min-width: 1280px) { 
+    .bg {
+        max-width: 1280px;
+        height: 400px;
+
+    }
+
+    .bg-plant {
+       display: flex;
+       flex-direction: row;
+        max-width: 1000px;
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .border {
+        border: 1px solid white;
+        padding: 0.5rem;
+        border-radius: 10px;
+        width: 60px;
+        margin: 0 auto;
+
+    }
+
+    .bg h2 {
+        font-size: 25px;
+        max-width: 400px;
+        margin-top: 1rem;
+    }
+
+    .bg p {
+        display: block;
+        max-width: 600px;
+        text-align: start;
+        margin-top: 1rem;
+    }
+
+
+    .plant-btn {
+        padding: 12px 100px;
+        margin-top: 1rem;
+
+    }
+
+
+    .bg-plant {
+        text-align: center;
+        padding: 4rem;
+        margin-top: -4rem;
+    }
+
+    .bg-plant img {
+        margin: 1rem 0 1rem 2rem;
+
+        width: 50px;
+    }
+
+
+
+
+}

@@ -9,7 +9,7 @@ const info = [
 </script>
 
 <template>
-  <div class="w-full flex justify-center px-4">
+  <section class="w-full flex justify-center px-4">
     <div class="container-Wellbeing w-full rounded-[10px]">
 
 
@@ -31,6 +31,6 @@ const info = [
      
       <img class="woman" :src="Woman" />
     </div>
-  </div>
+  </section>
 </template>
 
