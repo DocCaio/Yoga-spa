@@ -1,42 +1,47 @@
-# gta-page
+# Yoga — Página spbre yopa e spa
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto desenvolvido com Vue 3 + TypeScript, incluindo Dark Mode, componentes reutilizáveis e layout responsivo.
 
-## Recommended IDE Setup
+## ✨ Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+🎨 Tema Claro/Escuro (Dark Mode) com persistência no localStorage
 
-## Recommended Browser Setup
+🛍️ Listagem de roupas e sapatos com grid responsivo
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+⚡ Vue 3 + Composition API para melhor organização do código
 
-## Type Support for `.vue` Imports in TS
+🧩 Componentização para facilitar manutenção
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+🛠️ TypeScript garantindo tipagem forte
 
-## Customize configuration
+📱 Responsivo para mobile, tablet e desktop
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+| Tecnologia         | Descrição               |
+| ------------------ | ----------------------- |
+| 🟩 **Vue 3**       | Framework SPA           |
+| 🟦 **TypeScript**  | Tipagem estática        |
+| 🎨 **CSS / SCSS**  | Estilização e dark mode |
+| 🌑 **modo escuro** | Alternância de tema     |
 
-```sh
-yarn
+## 📂 Estrutura do Projeto
+
+## 🧪 Como Rodar o Projeto
+
 ```
+# instalar dependências
+yarn install
 
-### Compile and Hot-Reload for Development
+# iniciar ambiente de desenvolvimento
+yarn  dev
 
-```sh
-yarn dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
+# build para produção
 yarn build
+
 ```
+
+
+## 🤝 Contribuição
+
+Sinta-se à vontade para abrir issues, pull requests ou sugerir melhorias!
+
