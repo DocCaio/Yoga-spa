@@ -26,6 +26,7 @@ Projeto desenvolvido com Vue 3 + TypeScript, incluindo Dark Mode, componentes re
 
 ## 📂 Estrutura do Projeto
 
+```
 ├── .gitignore
 ├── .vscode
     └── extensions.json
@@ -103,6 +104,10 @@ Projeto desenvolvido com Vue 3 + TypeScript, incluindo Dark Mode, componentes re
 ├── tsconfig.node.json
 ├── vite.config.ts
 └── yarn.lock
+
+```
+
+
 
 ## 🧪 Como Rodar o Projeto
 
