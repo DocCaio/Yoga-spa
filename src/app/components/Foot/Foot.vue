@@ -3,7 +3,7 @@ import "./Foot.css";
 </script>
 
 <template>
-  <section class="container-foot">
+  <footer class="container-foot">
 
     <div class="teste">
     <RouterLink  to="/"   class=""
@@ -65,5 +65,5 @@ import "./Foot.css";
 
     </div>
     
-  </section>
+  </footer>
 </template>

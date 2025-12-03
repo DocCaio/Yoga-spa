@@ -1,4 +1,4 @@
-/* ----------- Base ----------- */
+
 
 .container-foot {
     display: flex;
@@ -17,7 +17,7 @@
     gap: 1.5rem;
 }
 
-/* ----------- Links principais ----------- */
+
 
 .foot-links ul {
     display: grid;
@@ -41,7 +41,7 @@
     opacity: 0.7;
 }
 
-/* ----------- Redes sociais ----------- */
+
 
 .foot-social {
     display: flex;
@@ -65,7 +65,7 @@
     opacity: 0.8;
 }
 
-/* ----------- Tablet (≥768px) ----------- */
+
 
 @media (min-width: 768px) {
 
@@ -85,13 +85,14 @@
     }
 }
 
-/* ----------- Desktop (≥1280px) ----------- */
+
 
 @media (min-width: 1280px) {
 
 .container-foot {
     flex-direction: row;
     justify-content: space-around;
+    padding: 3rem;
 }
 
 .teste {
