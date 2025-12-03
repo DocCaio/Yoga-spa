@@ -119,7 +119,7 @@ yarn install
 yarn  dev
 
 # build para produção
-yarn build
+yarn run build
 
 ```
 
